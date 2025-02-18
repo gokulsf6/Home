@@ -1,0 +1,43 @@
+/* Nav.css */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.2); /* Glass effect */
+    backdrop-filter: blur(10px); /* Frosted glass */
+    -webkit-backdrop-filter: blur(10px); /* Safari support */
+    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+   
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .flex {
+    display: flex; /* Use Flexbox */
+    justify-content: space-between; /* Align items on both sides */
+    align-items: center; /* Vertically center items */
+    padding: 0 20px; /* Add some padding to the left and right */
+    height: 100%;
+  }
+  
+  h1.text-black {
+    color: black; /* Set text color to black for "G" */
+  }
+  
+  ul {
+    list-style: none; /* Remove default list styling */
+    display: flex; /* Make list items horizontal */
+    margin: 0;
+  }
+  
+  ul li {
+    margin-left: 20px; /* Space between list items */
+    cursor: pointer; /* Change cursor on hover */
+  }
+  
+  ul li:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  
